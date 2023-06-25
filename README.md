@@ -1,11 +1,17 @@
-<img src="icon.png" align="right" />
-
 # Select Data from MySQL using PHP, VueJS and Axios
 ## Installation
+
+> Install Dependencies
+
+In the command line 
+
+``composer install``
+
 
 > Create Database
 
 Create Database "vuePHP"
+
 
 > Create Table
 
@@ -23,6 +29,7 @@ const HOST          =   "localhost";
     const USER      =   "your-user-mysql";
     const PASS      =   "your-password-mysql";
 ```
+
 
 > Change URL root
 
