@@ -19,9 +19,9 @@ use \PDOException;
 class DB{
 
     /**
-     * ***********************
-     * Credentials MySQL
-     * ***********************
+     * **********************************************************
+     * Credentials MySQL: change for your credentials MySQL
+     * **********************************************************
      */
     const HOST      =   "localhost";
     const DBNAME    =   "github2";
