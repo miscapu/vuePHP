@@ -1,24 +1,28 @@
 # Select Data from MySQL using PHP, VueJS and Axios
 ## Installation
 
-> Install Dependencies
+> 1. Install Dependencies
 
 In the command line 
 
 ``composer install``
 
+<br>
 
-> Create Database
+> 2. Create Database
 
 Create Database "vuePHP"
 
+<br>
 
-> Create Table
+> 3. Create Table
 
-Import products.sql file
+Import <b style="color:red">products.sql</b> file
+
+<br>
 
 
-> Change Credentials MySQL
+> 4. Change Credentials MySQL
 
 In file <b style="color:red">app/Models/DB.php</b> change the line:
 
@@ -30,8 +34,9 @@ const HOST          =   "localhost";
     const PASS      =   "your-password-mysql";
 ```
 
+<br>
 
-> Change URL root
+> 5. Change URL root
 
 In file <b style="color:red">index.php</b> change the line:
 
@@ -40,7 +45,7 @@ In file <b style="color:red">index.php</b> change the line:
 define( 'BASE_URL', 'YOUR_URL_ROOT' );
 ```
  
-
+<br>
 
 ## Contribute
 
